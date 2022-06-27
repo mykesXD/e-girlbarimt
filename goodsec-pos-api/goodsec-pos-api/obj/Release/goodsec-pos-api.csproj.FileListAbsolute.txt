@@ -1,0 +1,11 @@
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\bin\Release\goodsec-pos-api.exe.config
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\bin\Release\goodsec-pos-api.exe
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\bin\Release\goodsec-pos-api.pdb
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\bin\Release\Newtonsoft.Json.dll
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\bin\Release\Newtonsoft.Json.xml
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.csprojAssemblyReference.cache
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.csproj.CoreCompileInputs.cache
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.csproj.CopyComplete
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.exe
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.pdb
+C:\Users\ztuws\source\repos\goodsec-pos-api\goodsec-pos-api\obj\Release\goodsec-pos-api.csproj.ResolveComReference.cache

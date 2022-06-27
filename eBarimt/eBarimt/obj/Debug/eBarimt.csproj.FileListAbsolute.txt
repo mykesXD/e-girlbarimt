@@ -1,0 +1,7 @@
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Debug\eBarimt.exe.config
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Debug\eBarimt.exe
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Debug\eBarimt.pdb
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Debug\eBarimt.csprojAssemblyReference.cache
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Debug\eBarimt.csproj.CoreCompileInputs.cache
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Debug\eBarimt.exe
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Debug\eBarimt.pdb

@@ -1,0 +1,10 @@
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Release\eBarimt.exe.config
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Release\eBarimt.exe
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Release\eBarimt.pdb
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Release\eBarimt.csproj.CoreCompileInputs.cache
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Release\eBarimt.exe
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Release\eBarimt.pdb
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Release\eBarimt.csprojAssemblyReference.cache
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Release\Newtonsoft.Json.dll
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\bin\Release\Newtonsoft.Json.xml
+C:\Users\ztuws\source\repos\eBarimt\eBarimt\obj\Release\eBarimt.csproj.CopyComplete

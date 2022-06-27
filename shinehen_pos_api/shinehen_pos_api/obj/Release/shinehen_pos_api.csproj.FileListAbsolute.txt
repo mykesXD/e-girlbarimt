@@ -1,0 +1,11 @@
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\bin\Release\shinehen_pos_api.exe.config
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\bin\Release\shinehen_pos_api.exe
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\bin\Release\shinehen_pos_api.pdb
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\bin\Release\Newtonsoft.Json.dll
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\bin\Release\Newtonsoft.Json.xml
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.csproj.ResolveComReference.cache
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.csproj.CoreCompileInputs.cache
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.csproj.CopyComplete
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.exe
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.pdb
+C:\Users\ztuws\source\repos\shinehen_pos_api\shinehen_pos_api\obj\Release\shinehen_pos_api.csprojAssemblyReference.cache
