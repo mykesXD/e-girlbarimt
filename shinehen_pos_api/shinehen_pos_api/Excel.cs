@@ -11,7 +11,7 @@ namespace shinehen_pos_api
         Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
         Workbook wBook;
         Worksheet wSheet;
-        string filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-exam-02.xlsx";
+        string filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\shinehen\\ebarimt-ex.xlsx";
         public String GetTimestamp(DateTime value)
         {
             return value.ToString("yyyyMMddHHmmssffff");
@@ -25,28 +25,28 @@ namespace shinehen_pos_api
         {
             wBook = excel.Workbooks.Open(filePath);
             wSheet = wBook.Worksheets[1];
-            Range cells = wSheet.Range[$"A{row}", $"R{row}"];
+            Range cells = wSheet.Range[$"A{row}", $"Q{row}"];
             return cells;
         }
         public void writeExcel(int row, List<string> list, bool success, string timeStamp, string date)
         {
 
-            if (row == 2)
+            if (row == 3619)
             {
-                filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-exam-02.xlsx";
+                filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\shinehen\\ebarimt-ex.xlsx";
                 wBook = excel.Workbooks.Open(filePath);
                 wSheet = wBook.Worksheets[1];
-                Range cells = wSheet.Range[$"L{row}", $"R{row}"];
+                Range cells = wSheet.Range[$"K{row}", $"Q{row}"];
                 if (success == false)
                 {
-                    cells = wSheet.Range[$"Q{row}", $"S{row}"];
+                    cells = wSheet.Range[$"P{row}", $"R{row}"];
                 }
                 else
                 {
-                    wSheet.Cells[20][row].Value = date;
+                    wSheet.Cells[19][row].Value = date;
 
                 }
-                string savePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-{timeStamp}.xlsx";
+                string savePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\shinehen\\ebarimt-ex-{timeStamp}.xlsx";
                 string[] arr = list.ToArray();
                 cells.set_Value(XlRangeValueDataType.xlRangeValueDefault, arr);
                 excel.DisplayAlerts = false;
@@ -58,20 +58,20 @@ namespace shinehen_pos_api
             }
             else
             {
-                filePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-{timeStamp}.xlsx";
+                filePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\shinehen\\ebarimt-ex-{timeStamp}.xlsx";
                 wBook = excel.Workbooks.Open(filePath);
                 wSheet = wBook.Worksheets[1];
-                Range cells = wSheet.Range[$"L{row}", $"R{row}"];
+                Range cells = wSheet.Range[$"K{row}", $"Q{row}"];
                 if (success == false)
                 {
-                    cells = wSheet.Range[$"Q{row}", $"S{row}"];
+                    cells = wSheet.Range[$"P{row}", $"R{row}"];
                 }
                 else
                 {
-                    wSheet.Cells[20][row].Value = date;
+                    wSheet.Cells[19][row].Value = date;
                 }
 
-                string savePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-{timeStamp}.xlsx";
+                string savePath = $"c:\\Users\\ztuws\\Documents\\BarimtExcel\\shinehen\\ebarimt-ex-{timeStamp}.xlsx";
                 string[] arr = list.ToArray();
                 cells.set_Value(XlRangeValueDataType.xlRangeValueDefault, arr);
                 excel.DisplayAlerts = false;

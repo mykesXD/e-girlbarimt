@@ -17,7 +17,7 @@ namespace goodsec_pos_api
             Barimt barimt = new Barimt();
             Stock stock = new Stock();
             Excel excel = new Excel();
-            bool isReading = true; 
+            bool isReading = false; 
             int row = 1;
             //Console.WriteLine(PosAPI.sendData());
             Console.WriteLine(PosAPI.checkApi());
