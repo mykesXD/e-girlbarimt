@@ -11,7 +11,7 @@ namespace goodsec_pos_api
         Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
         Workbook wBook;
         Worksheet wSheet;
-        string filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-220201-220626.xlsx";
+        string filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\oruulah-last.xlsx";
         public String GetTimestamp(DateTime value)
         {
             return value.ToString("yyyyMMddHHmmssffff");
@@ -28,12 +28,13 @@ namespace goodsec_pos_api
             Range cells = wSheet.Range[$"A{row}", $"R{row}"];
             return cells;
         }
+        
         public void writeExcel(int row,List<string> list,bool success,string timeStamp, string date)
         {
 
             if(row == 2)
             {
-                filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\Ebarimt-220201-220626.xlsx";
+                filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\oruulah-last.xlsx";
                 wBook = excel.Workbooks.Open(filePath);
                 wSheet = wBook.Worksheets[1];
                 Range cells = wSheet.Range[$"L{row}", $"R{row}"];
@@ -82,5 +83,6 @@ namespace goodsec_pos_api
                 
             }
         }
+        
     }
 }

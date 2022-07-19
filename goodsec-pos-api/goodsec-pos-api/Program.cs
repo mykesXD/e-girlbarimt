@@ -9,20 +9,50 @@ namespace goodsec_pos_api
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Barimt barimt1 = new Barimt();
-            Stock stock1 = new Stock();
-            Barimt barimt = new Barimt();
-            Stock stock = new Stock();
             Excel excel = new Excel();
             bool isReading = false; 
             int row = 1;
-            //Console.WriteLine(PosAPI.sendData());
-            Console.WriteLine(PosAPI.checkApi());
-            Console.WriteLine(PosAPI.getInformation());
+            Console.WriteLine(PosAPI.sendData());
+            //Console.WriteLine(PosAPI.checkApi());
+            //Console.WriteLine(PosAPI.getInformation());
+            //Console.WriteLine(PossAPI.returnBill("{\"returnBillId\" : \"000005208173000220623001000100310\",\"date\" : \"2022-06-27 11:32:04\"}"));
+            
             string timeStamp = excel.GetTimestamp(DateTime.Now);
+
+            /*Microsoft.Office.Interop.Excel.Application excel1 = new Microsoft.Office.Interop.Excel.Application();
+            Workbook wBook;
+            Worksheet wSheet;
+            string filePath = "c:\\Users\\ztuws\\Documents\\BarimtExcel\\butsaah.xlsx";
+            wBook = excel1.Workbooks.Open(filePath);
+            wSheet = wBook.Worksheets[1];
+            bool isReading1 = true;
+
+            while (isReading1)
+            {
+                row++;
+                Range cells = wSheet.Range[$"A{row}", $"F{row}"];
+                if (cells[2].Value == null)
+                {
+                    Console.WriteLine("Error: Empty input");
+                    isReading1 = false;
+                    wBook.Save();
+                    wBook.Close();
+                    excel1.Quit();
+                    break;
+                }
+                else
+                {
+                    string resultStr = PosAPI.returnBill("{\"returnBillId\" : \"" + cells[2].Value + "\",\"date\" : \"" + cells[5].Value + "\"}");
+                    Console.WriteLine(cells[2].Value + "-" + resultStr);
+                    excel1.DisplayAlerts = false;
+                    wSheet.Cells[6][row].Value = resultStr;
+                }*/
+
+
 
             while (isReading) {
                 row++;
@@ -37,6 +67,8 @@ namespace goodsec_pos_api
                     }
                     else
                     {
+                        Barimt barimt = new Barimt();
+                        Stock stock = new Stock();
                         barimt.amount = string.Format("{0:N2}", excelRow[5].Value).Replace(",","");
                         barimt.vat = "0.00";
                         barimt.cashAmount = barimt.amount;
